@@ -1,0 +1,13 @@
+{
+  "buildCommand": "",
+  "installCommand": "",
+  "framework": "static",
+  "public": "./",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
